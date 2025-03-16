@@ -17,6 +17,8 @@ if test -f ~/.cache/ags/user/generated/terminal/sequences.txt
     cat ~/.cache/ags/user/generated/terminal/sequences.txt
 end
 
+set -x EDITOR code
+
 alias pamcan=pacman
 alias update-packages-list="pacman -Qqe > ~/.packages_shared_for_chezmoi/packages.list"
 

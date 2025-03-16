@@ -21,6 +21,7 @@ set -x EDITOR code
 
 alias pamcan=pacman
 alias update-packages-list="pacman -Qqe > ~/.packages_shared_for_chezmoi/packages.list"
+alias install-packages-list="yay -S --needed - < ~/.packages_shared_for_chezmoi/packages.list"
 
 # function fish_prompt
 #   set_color cyan; echo (pwd)

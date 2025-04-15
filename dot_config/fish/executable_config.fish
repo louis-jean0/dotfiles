@@ -18,6 +18,7 @@ if test -f ~/.cache/ags/user/generated/terminal/sequences.txt
 end
 
 set -x EDITOR code
+set -x QT_QPA_PLATFORM xcb
 
 alias pamcan=pacman
 alias update-packages-list="pacman -Qqe > ~/.packages_shared_for_chezmoi/packages.list"
